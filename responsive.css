@@ -1,0 +1,207 @@
+@media (max-width: 600px) {
+  #nav {
+    padding: 0vh 4vw;
+  }
+  .nav-left .logo {
+    height: 6vh;
+    width: 12vw;
+    position: relative;
+    /* background-color: yellowgreen; */
+  }
+  .nav-left .logo::after {
+    font-family: "Poppins", sans-serif;
+    content: "Swiggy";
+    position: absolute;
+    left: 60;
+    top: 10%;
+    font-weight: 600;
+    font-size: 6vw;
+  }
+
+  .nav-right {
+    display: none;
+  }
+  /* .nav-hambargour a:nth-child(3)::before {
+    content: "NEW";
+    position: absolute;
+    top: -30%;
+    right: 0;
+    font-size: 0.8vw;
+    color: #fff;
+  } */
+  #nav .nav-hambargour {
+    display: inline;
+    position: relative;
+  }
+  .nav-hambargour i {
+    font-size: 8vw;
+  }
+  .nav-hambargour i:active {
+    border-radius: 50%;
+    color: orange;
+  }
+
+  .nav-hambargour .menu-bar {
+    width: 48vw;
+    height: 35vh;
+    background-color: orange;
+    position: absolute;
+    right: 0;
+    border-radius: 20px;
+    padding: 3vh;
+    display: none;
+  }
+
+  .nav-hambargour .menu-bar a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 2vw 0;
+  }
+  .nav-hambargour .menu-bar a i {
+    font-size: 4vw;
+  }
+  #header {
+    padding: 2vh 6vw;
+  }
+  #header .h-top {
+    margin-bottom: 0;
+  }
+  #header .h-top h2 {
+    font-size: 5vw;
+  }
+
+  #header .h-btm {
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  #header .h-btm .container {
+    margin-right: 24px;
+  }
+  #header .h-btm .container .img-box {
+    height: 70%;
+    width: 38vw;
+  }
+  #header .h-btm .container .img-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+  }
+  #header .h-btm .img-box img:hover {
+    scale: 1.2;
+    transition: all ease-in 0.5s;
+  }
+
+  section {
+    padding: 2vh 4vw;
+  }
+
+  section .sec-top {
+    padding: 0 1vw;
+  }
+  section .sec-top h2 {
+    font-size: 5vw;
+  }
+  section .sec-top .slide-icn {
+    margin: 0 2vw;
+    display: flex;
+  }
+
+  section .sec-btm .sec-btm-container {
+    gap: 6vw;
+    margin-right: 16px;
+  }
+  section .sec-btm .card {
+    width: 50vw;
+    overflow: hidden;
+  }
+  .sec-btm .card .card-info h3 {
+    font-size: 3.8vw;
+  }
+
+  .sec-btm-container .card .card-info p {
+    font-size: 3.5vw;
+    /* color: red; */
+    width: 70%;
+  }
+  section .sec-btm .card i {
+    /* color: green; */
+    margin: 0 8px;
+    /* background-color: green; */
+    font-size: 3.3vw;
+  }
+  section .sec-btm .card .img-div {
+    border-radius: 16px;
+    margin: 1vh 0;
+  }
+
+  /* +++++++++++++++++++++++++++++++ FoodList Style++++++++++++++++++++++++++++++ */
+
+  #food-list {
+    padding: 0vh 4vw;
+  }
+
+  #food-list .fl-top h2 {
+    font-size: 5vw;
+  }
+  #food-list .fl-top-filter a {
+    padding: 2px 2vw;
+    font-size: 3vw;
+  }
+  #food-list .fl-top-filter a:nth-of-type(2n) {
+    display: none;
+  }
+
+  #food-list .food-list-item {
+    gap: 5vw;
+    /* margin: auto auto; */
+  }
+
+  #food-list .food-list-item .card {
+    height: 40vh;
+    width: 43vw;
+  }
+
+  .food-list-item .card .card-img {
+    border-radius: 16px;
+  }
+
+  .food-list-item .card .card-info {
+    padding: 0.8vh;
+  }
+  .card .card-info h4 {
+    font-size: 4.5vw;
+  }
+  .card .card-info h5 {
+    font-size: 3.5vw;
+  }
+  .card .card-info p {
+    font-size: 3.8vw;
+  }
+  .food-list-item .card .card-info i {
+    font-size: 2.8vw;
+  }
+
+  #download {
+    height: 10vh;
+    padding: 2vh 5vw;
+    display: inline-block;
+  }
+  #download h2 {
+    font-size: 5vw;
+    text-align: center;
+  }
+  #download .download-store {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+  }
+  #download .dn-play,
+  .dn-app {
+    height: 90%;
+    width: 27vw;
+  }
+}
